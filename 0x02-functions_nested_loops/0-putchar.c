@@ -1,7 +1,7 @@
 ##include "main.h"
 
 /**
- * main - Prints "Main" followed by a new line.
+ * Main - Entry point.
  * Return: Always 0.
  */
 int main(void)
