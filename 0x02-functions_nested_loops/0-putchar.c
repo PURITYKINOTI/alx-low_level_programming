@@ -2,19 +2,16 @@
 
 /**
  * Main - Entry point.
+ *
  * Return: Always 0.
  */
 int main(void)
 {
-	_putchar('H');
-	_putchar('o');
-	_putchar('l');
-	_putchar('b');
-	_putchar('e');
-	_putchar('r');
-	_putchar('t');
-	_putchar('o');
-	_putchar('n');
+ 	char word[8] = "_putchar";
+	int i;
+
+	for (i = 0; i < 8 ; i++)
+		_putchar (word {i});
 	_putchar('\n');
 
 	return (0);
