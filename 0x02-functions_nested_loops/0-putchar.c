@@ -1,17 +1,21 @@
-##include "main.h"
+#include "main.h"
+#include <string.h>
+
 
 /**
  * Main - Entry point.
  *
- * Return: Always 0.
+ * Description: prints _putchar using putchar prototype
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
- 	char word[8] = "_putchar";
-	int i;
+ 	char str[8] = "_putchar";
+	int ch;
 
-	for (i = 0; i < 8 ; i++)
-		_putchar (word {i});
+	for (ch = 0; ch < 8 ; ++ch)
+		_putchar (str {ch});
 	_putchar('\n');
 
 	return (0);
