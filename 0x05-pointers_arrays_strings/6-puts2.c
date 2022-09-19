@@ -2,24 +2,17 @@
 
 /**
  * puts2 - prints one char out of 2 of a string
- * followed by a new line
  * @str: string to print the chars from
  */
 void puts2(char *str)
 {
-	int len, i;
+	int index = 0, len = 0;
 
-	len = 0;
-
-	while (str[len] != '\0')
-	{
+	while (str[index++])
 		len++;
-	}
 
-	for (i = 0; i < len; i += 2)
-	{
-		_putchar(str[i]);
-	}
+	for (index = 0; index < len; index += 2)
+		_putchar(str[index]);
 
 	_putchar('\n');
 }
