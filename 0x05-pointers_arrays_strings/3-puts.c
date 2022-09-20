@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * _puts  - prints a string, followed by a new line, to stdout
- * @str: the string
- *
- * Return: no return
+ * _puts - prints a string, followed by a new line.
+ * @str: input string.
+ * Return: no return.
  */
 void _puts(char *str)
 {
@@ -15,9 +14,9 @@ void _puts(char *str)
 		if (str[count] == '\0')
 		{
 			_putchar('\n');
-			brea;
+			break;
 		}
 		_putchar(str[count]);
-		coint++;
+		count++;
 	}
 }
