@@ -1,23 +1,18 @@
 #include "main.h"
 
 /**
- * print_rev - prints a string in reverse followed by a new line
- * @s: the string
+ * print_most_numbers - prints numbers btw 0 to 9 and not 4
  *
- * Return: nothing
+ * Return: no return
  */
-void print_rev(char *s)
+void print_most_numbers(void)
 {
-	int count = 0;
+	int ch;
 
-	while (count >= 0)
+	for (ch = 48; ch < 58; ch++)
 	{
-		if (s[count] == '\0')
-			break;
-		count++;
+		if (ch != 50 && ch != 52)
+			_putchar(ch);
 	}
-
-	for (count--; count >= 0; count--)
-		_putchar(s[count]);
 	_putchar('\n');
 }
