@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # More malloc, free
 Project done during **Full Stack Software Engineering studies** at **ALX**. It aims to learn about how to use `malloc`, `calloc`, `realloc` and `exit` functions in **C language**.
 
@@ -17,3 +18,6 @@ All of the following files are programs written in C:
 | `3-array_range.c` | Creates an array of integers |
 | `100-realloc.c` | Reallocates a memory block using `malloc` and `free` |
 | `101-mul.c` | Multiplies two positive numbers |
+=======
+malloc
+>>>>>>> 6eeb33c392ae3c899b432ef7ed5850942d3472bd
