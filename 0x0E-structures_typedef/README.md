@@ -1,5 +1,5 @@
-# Structures, typedef
-Project done during **Full Stack Software Engineering studies** at **ALX**. It aims to learn about structures and `typedef` in **C language**.
+# Structures, typed
+Project done during **Full Stack Software Engineering COURSE** at **ALX**. It aims to learn about structures and `typedef` in **C**.
 
 ## Technologies
 * C files are compiled using `gcc 4.8.4`
