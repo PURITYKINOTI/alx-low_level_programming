@@ -1,10 +1,10 @@
 # Structures, typed
-Project done during **Full Stack Software Engineering COURSE** at **ALX**. It aims to learn about structures and `typedef` in **C**.
+Project during **Full Stack Software Engineering COURSE** at **ALX**. It aims to learn about structures and `typedef` in **C**.
 
 ## Technologies
 * C files are compiled using `gcc 4.8.4`
 * C files are written according to the C90 standard
-* Tested on Ubuntu 14.04 LTS
+* Tested on Ubuntu 18.04 LTS
 
 ## Files
 All of the following files are programs written in C:
