@@ -1,11 +1,11 @@
 # C - Function pointers
 
-In this project, I learned about function pointers in C - what they hold,
+In this project, I have learnt about function pointers in C - what they hold,
 where they point in virtual memory, and how to use them.
 
 ## Tests :heavy_check_mark:
 
-* [tests](./tests): Folder of test files. Provided by ALX School.
+* [tests](./tests): Folder of test files. Provided by Holberton School.
 
 ## Header Files :file_folder:
 
@@ -63,7 +63,7 @@ types and function written for the program [3-main.c](./3-main.c).
     * The program assumes that the result of all operations can be stored in an `int`.
     * `operator` is one of either `+` (addition), `-` (subtraction), `*`
     (multiplication), `/` (division), or `%` (modulo).
-    * If number of arguments is incorrect, the program prints `Error` followed by a new
+    * If the number of arguments is incorrect, the program prints `Error` followed by a new
     line and exits with a status value of `98`.
     * If the `operator` is none of the above, the program prints `Error` followed by
     a new line and exits with a status value of `99`.
@@ -76,4 +76,4 @@ types and function written for the program [3-main.c](./3-main.c).
     * Usage: `./main number_of_bytes`
     * Opcodes are printed two-decimal long in hexadecimal, lowercase.
     * If the number of arguments is incorrect, the program prints `Error`
-    Ifollowed by a new line and exits with a status value of `2`.
+    followed by a new line and exits with a status value of `2`.

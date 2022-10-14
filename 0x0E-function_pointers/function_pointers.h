@@ -3,7 +3,7 @@
 
 /*
  * File: function_pointers.h
- * AUth: Purity Kinoti
+ * AUth: PURITYKINOTI
  * Desc: Header file containing prototypes for all functions
  *       used in the 0x0E-function_pointers directory.
  */
