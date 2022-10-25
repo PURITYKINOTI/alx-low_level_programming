@@ -1,4 +1,4 @@
-; File: 101-hello_holberton.asm
+; File: 101-hello_main.asm
 ; Auth: PURITYKINOTI
 ; Desc: 64-bit assembly program that prints
 ;       Hello, main followed by a new line.
